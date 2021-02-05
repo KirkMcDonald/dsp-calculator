@@ -1,0 +1,157 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dyson Sphere Program Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <link rel="stylesheet" type="text/css" href="dropdown.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66808523-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M6MFJH0VLH');
+</script>
+    <script src="third_party/BigInteger.min.js"></script>
+    <script src="third_party/d3.min.js"></script>
+    <script src="third_party/d3-sankey.min.js"></script>
+    <script>
+        var handlers = {}
+    </script>
+    <script type="module">
+        import { plusHandler, clickTab, changeRatePrecision, changeCountPrecision } from "./events.js"
+        import { init } from "./init.js"
+        import { trieTest } from "./trie.js"
+        window.trieTest = trieTest
+        handlers.plusHandler = plusHandler
+        handlers.clickTab = clickTab
+        handlers.changeRatePrecision = changeRatePrecision
+        handlers.changeCountPrecision = changeCountPrecision
+        handlers.init = init
+    </script>
+</head>
+
+<!--Copyright 2021 Kirk McDonald
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.-->
+
+<body onload="handlers.init()">
+    <ul id="targets">
+        <li id="plusButton">
+            <button class="targetButton ui" title="Add new item."
+                    onclick="handlers.plusHandler()">+</button>
+        </li>
+    </ul>
+
+    <div class="tabs">
+        <button class="tab_button" id="graph_button" onclick="handlers.clickTab('graph')">Visualize</button>
+        <button class="tab_button" id="totals_button" onclick="handlers.clickTab('totals')">Items</button>
+        <button class="tab_button" id="settings_button" onclick="handlers.clickTab('settings')">Settings</button>
+        <button class="tab_button" id="about_button" onclick="handlers.clickTab('about')">About</button>
+        <button class="tab_button" id="debug_button" onclick="handlers.clickTab('debug')">Debug</button>
+    </div>
+
+    <div id="graph_tab" class="tab graph">
+        <svg id="graph"><g /></svg>
+    </div>
+
+    <div id="totals_tab" class="tab">
+        <table id="totals">
+        <thead><tr></tr></thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td class="right-align power-label"><b>total power: </b></td>
+                <td class="right-align pad"><tt></tt></td>
+            </tr>
+        </tfoot>
+        </table>
+    </div>
+
+    <div id="settings_tab" class="tab">
+        <table id="settings">
+        <tr class="setting-section">
+        <td colspan="2"><span>Display</span><hr></td>
+        </tr>
+
+            <tr class="setting-row">
+            <td class="setting-label top">Display rates as:</td>
+            <td><form id="display_rate"></form></td>
+            </tr>
+
+            <tr class="setting-row">
+            <td class="setting-label">Rate precision:</td>
+            <td><input id="rprec" class="prec" type="number" value="3" min="0" onchange="handlers.changeRatePrecision(event)"></td>
+            </tr>
+
+            <tr class="setting-row">
+            <td class="setting-label">Count precision:</td>
+            <td><input id="cprec" class="prec" type="number" value="1" min="0" onchange="handlers.changeCountPrecision(event)"></td>
+            </tr>
+
+        <tr class="setting-section">
+        <td colspan="2"><span>Factory</span><hr></td>
+        </tr>
+
+            <tr class="setting-row">
+            <td class="setting-label">Belt:</td>
+            <td><span id="belt_selector"></span></td>
+            </tr>
+
+        <tr class="setting-section">
+        <td colspan="2"><span>Recipes</span><hr></td>
+        </tr>
+
+            <tr class="setting-row">
+            <td colspan="2"><div id="recipe_toggles"></div></td>
+            </tr>
+
+        <tr class="setting-section">
+        <td colspan="2"><span>Resources</span><hr></td>
+        </tr>
+
+            <tr class="setting-row">
+            <td colspan="2">
+                <p>Click and drag items to configure resource priority.</p>
+                <div id="resource_settings"></div>
+            </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="about_tab" class="tab">
+    <div class = "about-content">
+        This calculator is copyright 2021 Kirk McDonald. It is licensed under the Apache License 2.0, and its source may be <a href="https://github.com/KirkMcDonald/satisfactory-calculator">found on github, here</a>.
+        <p>
+        This calculator is based on my <a href="https://kirkmcdonald.github.io/calc.html">Factorio</a> and <a href="https://kirkmcdonald.github.io/satisfactory-calculator/calc.html">Satisfactory</a> calculators, and represents a new approach to solving this sort of recipe graph.
+        <p>
+        DSP represents an interesting middle ground between Factorio and Satisfactory, and writing this calculator required revisiting the core part of the algorithm. My hope is that the lessons learned here may be applied to the other calculators as well.
+        <p>
+        If you wish to support the calculator, please consider donating to <a href="https://www.patreon.com/kirkmcdonald">my Patreon campaign</a>. Any amount helps. And thank you!
+    </div>
+    </div>
+
+    <div id="debug_tab" class="tab">
+        <div id="debug_message"></div>
+
+        <label for="render_debug">Render debug tab:</label>
+        <input type="checkbox" id="render_debug" onchange="toggleDebug(event)"><br>
+        Last tableau:
+        <div id="debug_tableau"></div>
+        Last solution:
+        <div id="debug_solution"></div>
+    </div>
+</body>
+</html>

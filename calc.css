@@ -1,0 +1,324 @@
+:root {
+    /* main background, dropdown backgrounds */
+    --dark: #171717;
+    /* tooltip background; should be same as dark, but with alpha channel */
+    --dark-overlay: rgba(23, 23, 23, 0.8);
+    /* visualization node backgrounds, button backgrounds */
+    --medium: #212427;
+    /* background of main visual area */
+    --main: #272b30;
+    /* input field backgrounds, collapsed dropdown borders */
+    --light: #3a3f44;
+
+    /* main foreground text color */
+    --foreground: #c8c8c8;
+    /* makes things stand out */
+    --accent: #ff7200;
+    /* slightly brighter than main foreground color */
+    --bright: #f1fff2;
+}
+/* top-level/shared elements */
+body {
+    font-family: sans-serif;
+    color: var(--foreground);
+    background-color: var(--dark);
+}
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
+a:active, a:hover {
+    color: var(--bright);
+}
+input, select {
+    color: var(--foreground);
+    background-color: var(--light);
+    padding: 0.25em;
+    border: 1px solid var(--light);
+    border-radius: 0.4em;
+}
+input:focus, select:focus {
+    border-color: var(--accent);
+    outline: none;
+}
+.right-align {
+    text-align: right;
+}
+button.ui {
+    color: var(--accent);
+    background: linear-gradient(to bottom, var(--light), var(--medium));
+    border: 2px outset var(--light);
+    border-radius: 0.4em;
+}
+button.ui:active {
+    border-style: inset;
+}
+button.ui:focus {
+    border-color: var(--accent);
+    outline: none;
+}
+img.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ignore {
+    opacity: 0.3;
+}
+/* build targets */
+.targetButton {
+    height: 2em;
+    width: 2em;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 0.5em;
+}
+ul#targets {
+    list-style-type: none;
+    margin-top: 0;
+}
+ul#targets li {
+    margin: 0.25em;
+    border-radius: 0.5em;
+}
+label.selected {
+    font-weight: bold;
+    color: var(--bright);
+}
+/* settings */
+table#settings {
+    border-collapse: collapse;
+}
+tr.setting-section td {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+tr.setting-section td span {
+    color: var(--accent);
+    font-style: italic;
+}
+tr.setting-section td hr {
+    display: block;
+    border: 1px solid var(--accent);
+}
+tr.setting-row td:first-child {
+    padding-left: 3em;
+}
+td.setting-label {
+    text-align: right;
+    width: 10em;
+}
+/*div#resource_settings, div#alt_recipe_settings {
+    padding-left: 3em;
+}*/
+.top {
+    vertical-align: top;
+}
+input.prec {
+    width: 4em;
+}
+#belt_selector input[type="radio"] {
+    display: none;
+}
+#belt_selector input[type="radio"] + label {
+    cursor: pointer;
+    background: var(--light);
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+#belt_selector input[type="radio"] + label:hover {
+    background: var(--bright);
+}
+#belt_selector input[type="radio"]:checked + label {
+    background: var(--accent);
+}
+#resource_settings {
+    border: 2px solid var(--light);
+    border-radius: 5px;
+    background-color: var(--dark);
+}
+#resource_settings .resource-tier {
+    /*display: inline-block;*/
+    /*border-top: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;*/
+    border: 1px solid transparent;
+}
+#resource_settings .resource-tier.highlight {
+    border-color: var(--accent);
+}
+#resource_settings .bookend {
+    background-color: var(--light);
+}
+#resource_settings .bookend.highlight {
+    background-color: var(--accent);
+}
+#resource_settings .bookend * {
+    pointer-events: none;
+}
+#resource_settings .middle {
+    height: 10px;
+    background-color: var(--light);
+}
+#resource_settings .middle.highlight {
+    background-color: var(--accent);
+}
+#resource_settings .resource {
+    display: inline-block;
+}
+#resource_settings.dragging .resource-tier > * /*:is(img, .resource)*/ {
+    pointer-events: none;
+}
+/*table.resource {
+    border-collapse: collapse;
+}
+table.resource td {
+    text-align: right;
+}
+table.resource input[type="radio"] {
+    display: none;
+}
+table.resource input[type="radio"] + label {
+    cursor: pointer;
+    fill: var(--light);
+}
+table.resource input[type="radio"] + label:hover {
+    fill: var(--bright);
+}
+table.resource input[type="radio"]:checked + label {
+    fill: var(--accent);
+}
+#alt_recipe_settings .ingredient {
+    position: relative;
+    display: inline-block;
+}
+#alt_recipe_settings .count {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    color: var(--foreground);
+    background-color: var(--light);
+    border-top-left-radius: 4px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+#alt_recipe_settings .arrow {
+    font-size: 16px;
+}
+#alt_recipe_settings .open .count {
+    font-size: 16px
+}
+#alt_recipe_settings .open .arrow {
+    font-size: 32px;
+}*/
+/* tabs */
+div.tabs {
+    overflow: hidden;
+}
+div.tabs button.tab_button {
+    color: var(--accent);
+    background-color: inherit;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em;
+}
+div.tabs button.tab_button:hover {
+    background-color: var(--medium);
+}
+div.tabs button.active, div.tabs button.active:hover {
+    color: var(--bright);
+    background-color: var(--main);
+}
+button#debug_button {
+    float: right;
+}
+div.tab {
+    display: none;
+    padding: 1em;
+    background-color: var(--main);
+}
+/* visualizer */
+div.graph {
+    min-width: max-content;
+}
+g.node rect {
+    stroke: var(--foreground);
+    stroke-width: 1px;
+}
+g.overlay {
+    cursor: pointer;
+}
+text {
+    stroke: none;
+    fill: var(--foreground);
+    font: 12px sans-serif;
+}
+/* items tab */
+#totals {
+    border-collapse: collapse;
+}
+#totals.nosurplus .surplus {
+    display: none;
+}
+tr.display-row td.pad, th.pad {
+    padding-left: 1em;
+}
+tr.display-row td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+tr.nobuilding td.building {
+    display: none;
+}
+tr.noitem td.item {
+    display: none;
+}
+/* breakdowns */
+.breakdown-open .breakdown-arrow {
+    transform: rotate(90deg);
+}
+.breakdown-arrow {
+    color: var(--foreground);
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+.breakdown-arrow:hover {
+    color: var(--accent);
+}
+.breakdown {
+    display: none;
+    height: 0;
+}
+.breakdown.breakdown-open {
+    display: table-row;
+    height: auto;
+    transition: height 0.25s;
+}
+.breakdown table {
+    border-collapse: collapse;
+    border-left: solid 0.5em var(--medium);
+    border-right: solid 0.5em var(--medium);
+    background: var(--medium);
+    border-radius: 0.25em;
+}
+.usage-arrow {
+    vertical-align: middle;
+}
+.breakdown-first-output td {
+    border-top: 1px solid var(--light);
+}
+/* about */
+.about-content {
+    max-width: 40em;
+}
