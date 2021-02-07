@@ -21,7 +21,7 @@ import { solve } from "./solve.js"
 import { BuildTarget } from "./target.js"
 import { renderTotals } from "./visualize.js"
 
-const DEFAULT_ITEM_KEY = "circuit-board"
+const DEFAULT_ITEM_NAME = "Circuit board"
 
 // higher in list == harder to acquire
 // Broadly speaking, corresponds to tech tree.
@@ -31,27 +31,27 @@ const DEFAULT_ITEM_KEY = "circuit-board"
 // solution will prefer the craft over harvesting the resource.
 const DEFAULT_PRIORITY = [
     // common starting-world resources
-    ["water", "iron-ore", "copper-ore", "coal-ore", "stone-ore"],
+    ["Water", "Iron ore", "Copper ore", "Coal ore", "Stone ore"],
     // starting-world resources acquired with tech
-    ["crude-oil"],
+    ["Crude oil"],
     // everything else; figure it out later
     [
-        "hydrogen",
-        "deuterium",
-        "silicon-ore",
-        "titanium-ore",
-        "fire-ice",
-        "kimberlite-ore",
-        "organic-crystal",
-        "spiniform-stalagmite-crystal",
-        "sulfuric-acid",
-        "optical-grating-crystal",
-        "unipolar-magnet",
-        "fractal-silicon",
-        "critical-photon",
+        "Hydrogen",
+        "Deuterium",
+        "Silicon ore",
+        "Titanium ore",
+        "Fire ice",
+        "Kimberlite ore",
+        "Organic crystal",
+        "Spiniform stalagmite crystal",
+        "Sulfuric acid",
+        "Optical grating crystal",
+        "Unipolar magnet",
+        "Fractal silicon",
+        "Critical photon",
     ],
     // manually harvested
-    ["plant-fuel", "log"],
+    ["Plant fuel", "Log"],
 ]
 
 class PriorityLevel {
@@ -75,7 +75,7 @@ class PriorityLevel {
     }
 }
 
-export let DEFAULT_BELT = "conveyor-belt-mk-i"
+//export let DEFAULT_BELT = 0
 
 class FactorySpecification {
     constructor() {
@@ -85,6 +85,7 @@ class FactorySpecification {
         this.buildings = null
         this.belts = null
 
+        this.defaultItem = null
         this.buildTargets = []
 
         this.belt = null
@@ -105,6 +106,9 @@ class FactorySpecification {
         this.items = items
         let itemMap = new Map()
         for (let [itemKey, item] of items) {
+            if (item.name === DEFAULT_ITEM_NAME) {
+                this.defaultItem = item
+            }
             let rowMap = itemMap.get(item.category)
             if (rowMap === undefined) {
                 rowMap = new Map()
@@ -156,6 +160,12 @@ class FactorySpecification {
             this.itemRows.push(row)
         }
         this.recipes = recipes
+        this.resourceNameMap = new Map()
+        for (let [key, recipe] of recipes) {
+            if (recipe.isResource()) {
+                this.resourceNameMap.set(recipe.name, recipe)
+            }
+        }
         this.buildings = new Map()
         for (let building of buildings) {
             let category = this.buildings.get(building.category)
@@ -169,17 +179,54 @@ class FactorySpecification {
             }*/
         }
         this.belts = belts
-        this.belt = belts.get(DEFAULT_BELT)
+        this.belt = belts.values().next().value
+        // Called during renderSettings.
+        //this.setDefaultPriority()
 
-        for (let tier of DEFAULT_PRIORITY) {
+        //this.initMinerSettings()
+    }
+    setDefaultPriority() {
+        let tiers = []
+        for (let tierNames of DEFAULT_PRIORITY) {
+            let tier = []
+            for (let name of tierNames) {
+                tier.push(this.resourceNameMap.get(name).key)
+            }
+            tiers.push(tier)
+        }
+        this.setPriorities(tiers)
+    }
+    setPriorities(tiers) {
+        this.priority = []
+        for (let tier of tiers) {
             let tierList = new PriorityLevel()
             for (let key of tier) {
-                let recipe = this.recipes.get(key + "-mining")
+                let recipe = this.recipes.get(key)
+                if (!recipe) {
+                    throw new Error("bad resource key: " + key)
+                }
                 tierList.add(recipe)
             }
             this.priority.push(tierList)
         }
-        //this.initMinerSettings()
+    }
+    isDefaultPriority() {
+        if (this.priority.length !== DEFAULT_PRIORITY.length) {
+            return false
+        }
+        for (let i = 0; i < this.priority.length; i++) {
+            let pri = this.priority[i]
+            let def = DEFAULT_PRIORITY[i]
+            if (pri.recipes.size !== def.length) {
+                return false
+            }
+            for (let name of def) {
+                if (!pri.has(this.resourceNameMap.get(name))) {
+                    return false
+                }
+            }
+        }
+        return true
     }
     /*initMinerSettings() {
         this.minerSettings = new Map()
@@ -349,7 +396,7 @@ class FactorySpecification {
     }*/
     addTarget(itemKey) {
         if (itemKey === undefined) {
-            itemKey = DEFAULT_ITEM_KEY
+            itemKey = this.defaultItem.key
         }
         let item = this.items.get(itemKey)
         let target = new BuildTarget(this.buildTargets.length, itemKey, item, this.itemRows)

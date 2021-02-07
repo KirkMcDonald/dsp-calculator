@@ -2,78 +2,78 @@
     "belts": [
         {
             "name": "Conveyor belt MK.I",
-            "key": "conveyor-belt-mk-i",
+            "key": "cb",
             "rate": 6
         },
         {
             "name": "Conveyor belt MK.II",
-            "key": "conveyor-belt-mk-ii",
+            "key": "cc",
             "rate": 12
         },
         {
             "name": "Conveyor belt MK.III",
-            "key": "conveyor-belt-mk-iii",
+            "key": "cd",
             "rate": 30
         }
     ],
     "buildings": [
         {
             "name": "Mining machine",
-            "key": "mining-machine",
+            "key": "mm",
             "speed": 1,
             "category": "mining"
         },
         {
             "name": "Water pump",
-            "key": "water-pump",
+            "key": "wp",
             "speed": 1,
             "category": "pump"
         },
         {
             "name": "Oil extractor",
-            "key": "oil-extractor",
+            "key": "oe",
             "speed": 1,
             "category": "oil"
         },
         {
             "name": "Oil refinery",
-            "key": "oil-refinery",
+            "key": "or",
             "speed": 1,
             "category": "refining"
         },
         {
             "name": "Matrix lab",
-            "key": "matrix-lab",
+            "key": "ml",
             "speed": 1,
             "category": "lab"
         },
         {
             "name": "Assembling machine Mk.I",
-            "key": "assembling-machine-mk-i",
+            "key": "am",
             "speed": 0.75,
             "category": "crafting"
         },
         {
             "name": "Assembling machine Mk.II",
-            "key": "assembling-machine-mk-ii",
+            "key": "an",
             "speed": 1,
             "category": "crafting"
         },
         {
             "name": "Assembling machine Mk.III",
-            "key": "assembling-machine-mk-iii",
+            "key": "ao",
             "speed": 1.5,
             "category": "crafting"
         },
         {
             "name": "Smelter",
-            "key": "smelter",
+            "key": "s",
             "speed": 1,
             "category": "smelting"
         },
         {
             "name": "Chemical plant",
-            "key": "chemical-plant",
+            "key": "cp",
             "speed": 1,
             "category": "chemistry"
         }
@@ -81,709 +81,709 @@
     "items": [
         {
             "name": "Iron ore",
-            "key": "iron-ore",
+            "key": "io",
             "category": "item",
             "row": 1
         },
         {
             "name": "Copper ore",
-            "key": "copper-ore",
+            "key": "cq",
             "category": "item",
             "row": 1
         },
         {
             "name": "Stone ore",
-            "key": "stone-ore",
+            "key": "sr",
             "category": "item",
             "row": 1
         },
         {
             "name": "Coal ore",
-            "key": "coal-ore",
+            "key": "co",
             "category": "item",
             "row": 1
         },
         {
             "name": "Silicon ore",
-            "key": "silicon-ore",
+            "key": "so",
             "category": "item",
             "row": 1
         },
         {
             "name": "Titanium ore",
-            "key": "titanium-ore",
+            "key": "to",
             "category": "item",
             "row": 1
         },
         {
             "name": "Water",
-            "key": "water",
+            "key": "w",
             "category": "item",
             "row": 1
         },
         {
             "name": "Crude oil",
-            "key": "crude-oil",
+            "key": "cs",
             "category": "item",
             "row": 1
         },
         {
             "name": "Hydrogen",
-            "key": "hydrogen",
+            "key": "k",
             "category": "item",
             "row": 1
         },
         {
             "name": "Deuterium",
-            "key": "deuterium",
+            "key": "d",
             "category": "item",
             "row": 1
         },
         {
             "name": "Antimatter",
-            "key": "antimatter",
+            "key": "c",
             "category": "item",
             "row": 1
         },
         {
             "name": "Kimberlite ore",
-            "key": "kimberlite-ore",
+            "key": "ko",
             "category": "item",
             "row": 1
         },
         {
             "name": "Iron ingot",
-            "key": "iron-ingot",
+            "key": "ii",
             "category": "item",
             "row": 2
         },
         {
             "name": "Copper ingot",
-            "key": "copper-ingot",
+            "key": "ci",
             "category": "item",
             "row": 2
         },
         {
             "name": "Stone",
-            "key": "stone",
+            "key": "u",
             "category": "item",
             "row": 2
         },
         {
             "name": "Energetic graphite",
-            "key": "energetic-graphite",
+            "key": "eg",
             "category": "item",
             "row": 2
         },
         {
             "name": "High-purity silicon",
-            "key": "high-purity-silicon",
+            "key": "hp",
             "category": "item",
             "row": 2
         },
         {
             "name": "Titanium ingot",
-            "key": "titanium-ingot",
+            "key": "ti",
             "category": "item",
             "row": 2
         },
         {
             "name": "Sulfuric acid",
-            "key": "sulfuric-acid",
+            "key": "sa",
             "category": "item",
             "row": 2
         },
         {
             "name": "Refined oil",
-            "key": "refined-oil",
+            "key": "ro",
             "category": "item",
             "row": 2
         },
         {
             "name": "Hydrogen fuel rod",
-            "key": "hydrogen-fuel-rod",
+            "key": "hf",
             "category": "item",
             "row": 2
         },
         {
             "name": "Deuteron fuel rod",
-            "key": "deuteron-fuel-rod",
+            "key": "df",
             "category": "item",
             "row": 2
         },
         {
             "name": "Antimatter fuel rod",
-            "key": "antimatter-fuel-rod",
+            "key": "af",
             "category": "item",
             "row": 2
         },
         {
             "name": "Fractal silicon",
-            "key": "fractal-silicon",
+            "key": "fs",
             "category": "item",
             "row": 2
         },
         {
             "name": "Magnet",
-            "key": "magnet",
+            "key": "m",
             "category": "item",
             "row": 3
         },
         {
             "name": "Magnetic coil",
-            "key": "magnetic-coil",
+            "key": "mc",
             "category": "item",
             "row": 3
         },
         {
             "name": "Glass",
-            "key": "glass",
+            "key": "i",
             "category": "item",
             "row": 3
         },
         {
             "name": "Diamond",
-            "key": "diamond",
+            "key": "e",
             "category": "item",
             "row": 3
         },
         {
             "name": "Crystal silicon",
-            "key": "crystal-silicon",
+            "key": "ct",
             "category": "item",
             "row": 3
         },
         {
             "name": "Titanium alloy",
-            "key": "titanium-alloy",
+            "key": "ta",
             "category": "item",
             "row": 3
         },
         {
             "name": "Fire ice",
-            "key": "fire-ice",
+            "key": "fi",
             "category": "item",
             "row": 3
         },
         {
             "name": "Plastic",
-            "key": "plastic",
+            "key": "p",
             "category": "item",
             "row": 3
         },
         {
             "name": "Organic crystal",
-            "key": "organic-crystal",
+            "key": "od",
             "category": "item",
             "row": 3
         },
         {
             "name": "Graphene",
-            "key": "graphene",
+            "key": "j",
             "category": "item",
             "row": 3
         },
         {
             "name": "Thruster",
-            "key": "thruster",
+            "key": "v",
             "category": "item",
             "row": 3
         },
         {
             "name": "Optical grating crystal",
-            "key": "optical-grating-crystal",
+            "key": "og",
             "category": "item",
             "row": 3
         },
         {
             "name": "Steel",
-            "key": "steel",
+            "key": "t",
             "category": "item",
             "row": 4
         },
         {
             "name": "Circuit board",
-            "key": "circuit-board",
+            "key": "cb",
             "category": "item",
             "row": 4
         },
         {
             "name": "Prism",
-            "key": "prism",
+            "key": "q",
             "category": "item",
             "row": 4
         },
         {
             "name": "Electric motor",
-            "key": "electric-motor",
+            "key": "em",
             "category": "item",
             "row": 4
         },
         {
             "name": "Microcrystalline component",
-            "key": "microcrystalline-component",
+            "key": "md",
             "category": "item",
             "row": 4
         },
         {
             "name": "Casimir crystal",
-            "key": "casimir-crystal",
+            "key": "cc",
             "category": "item",
             "row": 4
         },
         {
             "name": "Strange matter",
-            "key": "strange-matter",
+            "key": "sz",
             "category": "item",
             "row": 4
         },
         {
             "name": "Titanium crystal",
-            "key": "titanium-crystal",
+            "key": "tc",
             "category": "item",
             "row": 4
         },
         {
             "name": "Carbon nanotube",
-            "key": "carbon-nanotube",
+            "key": "cn",
             "category": "item",
             "row": 4
         },
         {
             "name": "Reinforced thruster",
-            "key": "reinforced-thruster",
+            "key": "rt",
             "category": "item",
             "row": 4
         },
         {
             "name": "Spiniform stalagmite crystal",
-            "key": "spiniform-stalagmite-crystal",
+            "key": "su",
             "category": "item",
             "row": 4
         },
         {
             "name": "Gear",
-            "key": "gear",
+            "key": "h",
             "category": "item",
             "row": 5
         },
         {
             "name": "Plasma exciter",
-            "key": "plasma-exciter",
+            "key": "pe",
             "category": "item",
             "row": 5
         },
         {
             "name": "Photon combiner",
-            "key": "photon-combiner",
+            "key": "pd",
             "category": "item",
             "row": 5
         },
         {
             "name": "Electromagnetic turbine",
-            "key": "electromagnetic-turbine",
+            "key": "et",
             "category": "item",
             "row": 5
         },
         {
             "name": "Processor",
-            "key": "processor",
+            "key": "r",
             "category": "item",
             "row": 5
         },
         {
             "name": "Annihilation constraint sphere",
-            "key": "annihilation-constraint-sphere",
+            "key": "ac",
             "category": "item",
             "row": 5
         },
         {
             "name": "Titanium glass",
-            "key": "titanium-glass",
+            "key": "tg",
             "category": "item",
             "row": 5
         },
         {
             "name": "Particle broadband",
-            "key": "particle-broadband",
+            "key": "pb",
             "category": "item",
             "row": 5
         },
         {
             "name": "Logistics drone",
-            "key": "logistics-drone",
+            "key": "ld",
             "category": "item",
             "row": 5
         },
         {
             "name": "Unipolar magnet",
-            "key": "unipolar-magnet",
+            "key": "um",
             "category": "item",
             "row": 5
         },
         {
             "name": "Foundation",
-            "key": "foundation",
+            "key": "f",
             "category": "item",
             "row": 6
         },
         {
             "name": "Critical photon",
-            "key": "critical-photon",
+            "key": "cr",
             "category": "item",
             "row": 6
         },
         {
             "name": "Particle container",
-            "key": "particle-container",
+            "key": "pc",
             "category": "item",
             "row": 6
         },
         {
             "name": "Super-magnetic ring",
-            "key": "super-magnetic-ring",
+            "key": "sB",
             "category": "item",
             "row": 6
         },
         {
             "name": "Graviton lens",
-            "key": "graviton-lens",
+            "key": "gl",
             "category": "item",
             "row": 6
         },
         {
             "name": "Space warper",
-            "key": "space-warper",
+            "key": "sw",
             "category": "item",
             "row": 6
         },
         {
             "name": "Plane filter",
-            "key": "plane-filter",
+            "key": "pf",
             "category": "item",
             "row": 6
         },
         {
             "name": "Quantum chip",
-            "key": "quantum-chip",
+            "key": "qc",
             "category": "item",
             "row": 6
         },
         {
             "name": "Logistics vessel",
-            "key": "logistics-vessel",
+            "key": "lv",
             "category": "item",
             "row": 6
         },
         {
             "name": "Log",
-            "key": "log",
+            "key": "l",
             "category": "item",
             "row": 6
         },
         {
             "name": "Electromagnetic matrix",
-            "key": "electromagnetic-matrix",
+            "key": "en",
             "category": "item",
             "row": 7
         },
         {
             "name": "Energy matrix",
-            "key": "energy-matrix",
+            "key": "eo",
             "category": "item",
             "row": 7
         },
         {
             "name": "Structure matrix",
-            "key": "structure-matrix",
+            "key": "sA",
             "category": "item",
             "row": 7
         },
         {
             "name": "Information matrix",
-            "key": "information-matrix",
+            "key": "im",
             "category": "item",
             "row": 7
         },
         {
             "name": "Gravity matrix",
-            "key": "gravity-matrix",
+            "key": "gm",
             "category": "item",
             "row": 7
         },
         {
             "name": "Universe matrix",
-            "key": "universe-matrix",
+            "key": "un",
             "category": "item",
             "row": 7
         },
         {
             "name": "Solar sail",
-            "key": "solar-sail",
+            "key": "st",
             "category": "item",
             "row": 7
         },
         {
             "name": "Frame material",
-            "key": "frame-material",
+            "key": "fm",
             "category": "item",
             "row": 7
         },
         {
             "name": "Dyson sphere component",
-            "key": "dyson-sphere-component",
+            "key": "ds",
             "category": "item",
             "row": 7
         },
         {
             "name": "Small carrier rocket",
-            "key": "small-carrier-rocket",
+            "key": "sc",
             "category": "item",
             "row": 7
         },
         {
             "name": "Plant fuel",
-            "key": "plant-fuel",
+            "key": "pg",
             "category": "item",
             "row": 7
         },
         {
             "name": "Tesla tower",
-            "key": "tesla-tower",
+            "key": "tt",
             "category": "building",
             "row": 1
         },
         {
             "name": "Wireless power tower",
-            "key": "wireless-power-tower",
+            "key": "wq",
             "category": "building",
             "row": 1
         },
         {
             "name": "Satellite substation",
-            "key": "satellite-substation",
+            "key": "ss",
             "category": "building",
             "row": 1
         },
         {
             "name": "Wind turbine",
-            "key": "wind-turbine",
+            "key": "wt",
             "category": "building",
             "row": 1
         },
         {
             "name": "Thermal power station",
-            "key": "thermal-power-station",
+            "key": "tp",
             "category": "building",
             "row": 1
         },
         {
             "name": "Solar panel",
-            "key": "solar-panel",
+            "key": "sp",
             "category": "building",
             "row": 1
         },
         {
             "name": "Mini fusion power station",
-            "key": "mini-fusion-power-station",
+            "key": "mf",
             "category": "building",
             "row": 1
         },
         {
             "name": "Accumulator",
-            "key": "accumulator",
+            "key": "a",
             "category": "building",
             "row": 1
         },
         {
             "name": "Accumulator(full)",
-            "key": "accumulatorfull",
+            "key": "b",
             "category": "building",
             "row": 1
         },
         {
             "name": "Energy exchanger",
-            "key": "energy-exchanger",
+            "key": "ee",
             "category": "building",
             "row": 1
         },
         {
             "name": "Ray receiver",
-            "key": "ray-receiver",
+            "key": "rr",
             "category": "building",
             "row": 1
         },
         {
             "name": "Artificial star",
-            "key": "artificial-star",
+            "key": "as",
             "category": "building",
             "row": 1
         },
         {
             "name": "Conveyor belt MK.I",
-            "key": "conveyor-belt-mk-i",
+            "key": "cd",
             "category": "building",
             "row": 2
         },
         {
             "name": "Conveyor belt MK.II",
-            "key": "conveyor-belt-mk-ii",
+            "key": "ce",
             "category": "building",
             "row": 2
         },
         {
             "name": "Conveyor belt MK.III",
-            "key": "conveyor-belt-mk-iii",
+            "key": "cf",
             "category": "building",
             "row": 2
         },
         {
             "name": "Splitter(4-direction)",
-            "key": "splitter4-direction",
+            "key": "sd",
             "category": "building",
             "row": 2
         },
         {
             "name": "Storage MK.I",
-            "key": "storage-mk-i",
+            "key": "sv",
             "category": "building",
             "row": 2
         },
         {
             "name": "Storage MK.II",
-            "key": "storage-mk-ii",
+            "key": "sx",
             "category": "building",
             "row": 2
         },
         {
             "name": "Storage tank",
-            "key": "storage-tank",
+            "key": "sy",
             "category": "building",
             "row": 2
         },
         {
             "name": "Logistics station",
-            "key": "logistics-station",
+            "key": "ls",
             "category": "building",
             "row": 2
         },
         {
             "name": "Interstellar logistics station",
-            "key": "interstellar-logistics-station",
+            "key": "il",
             "category": "building",
             "row": 2
         },
         {
             "name": "Orbit collector",
-            "key": "orbit-collector",
+            "key": "oc",
             "category": "building",
             "row": 2
         },
         {
             "name": "EM-Rail Ejector",
-            "key": "em-rail-ejector",
+            "key": "er",
             "category": "building",
             "row": 2
         },
         {
             "name": "Sorter MK.I",
-            "key": "sorter-mk-i",
+            "key": "sm",
             "category": "building",
             "row": 3
         },
         {
             "name": "Sorter MK.II",
-            "key": "sorter-mk-ii",
+            "key": "sn",
             "category": "building",
             "row": 3
         },
         {
             "name": "Sorter MK.III",
-            "key": "sorter-mk-iii",
+            "key": "sq",
             "category": "building",
             "row": 3
         },
         {
             "name": "Mining machine",
-            "key": "mining-machine",
+            "key": "mm",
             "category": "building",
             "row": 3
         },
         {
             "name": "Water pump",
-            "key": "water-pump",
+            "key": "wp",
             "category": "building",
             "row": 3
         },
         {
             "name": "Oil extractor",
-            "key": "oil-extractor",
+            "key": "oe",
             "category": "building",
             "row": 3
         },
         {
             "name": "Oil refinery",
-            "key": "oil-refinery",
+            "key": "or",
             "category": "building",
             "row": 3
         },
         {
             "name": "Miniature particle collider",
-            "key": "miniature-particle-collider",
+            "key": "mp",
             "category": "building",
             "row": 3
         },
         {
             "name": "Matrix lab",
-            "key": "matrix-lab",
+            "key": "ml",
             "category": "building",
             "row": 3
         },
         {
             "name": "Vertical launching silo",
-            "key": "vertical-launching-silo",
+            "key": "vl",
             "category": "building",
             "row": 3
         },
         {
             "name": "Assembling machine Mk.I",
-            "key": "assembling-machine-mk-i",
+            "key": "am",
             "category": "building",
             "row": 4
         },
         {
             "name": "Assembling machine Mk.II",
-            "key": "assembling-machine-mk-ii",
+            "key": "an",
             "category": "building",
             "row": 4
         },
         {
             "name": "Assembling machine Mk.III",
-            "key": "assembling-machine-mk-iii",
+            "key": "ao",
             "category": "building",
             "row": 4
         },
         {
             "name": "Smelter",
-            "key": "smelter",
+            "key": "s",
             "category": "building",
             "row": 4
         },
         {
             "name": "Spray coater",
-            "key": "spray-coater",
+            "key": "se",
             "category": "building",
             "row": 4
         },
         {
             "name": "Chemical plant",
-            "key": "chemical-plant",
+            "key": "cp",
             "category": "building",
             "row": 4
         },
         {
             "name": "Fractionator",
-            "key": "fractionator",
+            "key": "g",
             "category": "building",
             "row": 4
         }
@@ -791,17 +791,17 @@
     "recipes": [
         {
             "name": "Iron ingot",
-            "key": "iron-ingot",
+            "key": "ii",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ore",
+                    "name": "io",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 1
                 }
             ],
@@ -809,17 +809,17 @@
         },
         {
             "name": "Magnet",
-            "key": "magnet",
+            "key": "m",
             "time": 1.5,
             "ingredients": [
                 {
-                    "name": "iron-ore",
+                    "name": "io",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "magnet",
+                    "name": "m",
                     "amount": 1
                 }
             ],
@@ -827,17 +827,17 @@
         },
         {
             "name": "Copper ingot",
-            "key": "copper-ingot",
+            "key": "ci",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "copper-ore",
+                    "name": "cq",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 1
                 }
             ],
@@ -845,17 +845,17 @@
         },
         {
             "name": "Stone",
-            "key": "stone",
+            "key": "u",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "stone-ore",
+                    "name": "sr",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 1
                 }
             ],
@@ -863,17 +863,17 @@
         },
         {
             "name": "Gear",
-            "key": "gear",
+            "key": "h",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 1
                 }
             ],
@@ -881,21 +881,21 @@
         },
         {
             "name": "Magnetic coil",
-            "key": "magnetic-coil",
+            "key": "mc",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "magnet",
+                    "name": "m",
                     "amount": 2
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 2
                 }
             ],
@@ -903,25 +903,25 @@
         },
         {
             "name": "Wind turbine",
-            "key": "wind-turbine",
+            "key": "wt",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 6
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 1
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "wind-turbine",
+                    "name": "wt",
                     "amount": 1
                 }
             ],
@@ -929,21 +929,21 @@
         },
         {
             "name": "Tesla tower",
-            "key": "tesla-tower",
+            "key": "tt",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 2
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "tesla-tower",
+                    "name": "tt",
                     "amount": 1
                 }
             ],
@@ -951,21 +951,21 @@
         },
         {
             "name": "Electromagnetic matrix",
-            "key": "electromagnetic-matrix",
+            "key": "en",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 1
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "electromagnetic-matrix",
+                    "name": "en",
                     "amount": 1
                 }
             ],
@@ -973,29 +973,29 @@
         },
         {
             "name": "Matrix lab",
-            "key": "matrix-lab",
+            "key": "ml",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 8
                 },
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 4
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 4
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "matrix-lab",
+                    "name": "ml",
                     "amount": 1
                 }
             ],
@@ -1003,17 +1003,17 @@
         },
         {
             "name": "Prism",
-            "key": "prism",
+            "key": "q",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "prism",
+                    "name": "q",
                     "amount": 2
                 }
             ],
@@ -1021,21 +1021,21 @@
         },
         {
             "name": "Plasma exciter",
-            "key": "plasma-exciter",
+            "key": "ph",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 4
                 },
                 {
-                    "name": "prism",
+                    "name": "q",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "plasma-exciter",
+                    "name": "pe",
                     "amount": 1
                 }
             ],
@@ -1043,21 +1043,21 @@
         },
         {
             "name": "Wireless power tower",
-            "key": "wireless-power-tower",
+            "key": "wq",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "tesla-tower",
+                    "name": "tt",
                     "amount": 1
                 },
                 {
-                    "name": "plasma-exciter",
+                    "name": "pe",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "wireless-power-tower",
+                    "name": "wq",
                     "amount": 1
                 }
             ],
@@ -1065,29 +1065,29 @@
         },
         {
             "name": "Oil extractor",
-            "key": "oil-extractor",
+            "key": "oe",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 12
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 12
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 6
                 },
                 {
-                    "name": "plasma-exciter",
+                    "name": "pe",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "oil-extractor",
+                    "name": "oe",
                     "amount": 1
                 }
             ],
@@ -1095,29 +1095,29 @@
         },
         {
             "name": "Oil refinery",
-            "key": "oil-refinery",
+            "key": "or",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 10
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 10
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 6
                 },
                 {
-                    "name": "plasma-exciter",
+                    "name": "pe",
                     "amount": 6
                 }
             ],
             "products": [
                 {
-                    "name": "oil-refinery",
+                    "name": "or",
                     "amount": 1
                 }
             ],
@@ -1125,21 +1125,21 @@
         },
         {
             "name": "Plasma refining",
-            "key": "plasma-refining",
+            "key": "pr",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "crude-oil",
+                    "name": "cs",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 1
                 },
                 {
-                    "name": "refined-oil",
+                    "name": "ro",
                     "amount": 2
                 }
             ],
@@ -1147,17 +1147,17 @@
         },
         {
             "name": "Energetic graphite",
-            "key": "energetic-graphite",
+            "key": "eg",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "coal-ore",
+                    "name": "co",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 1
                 }
             ],
@@ -1165,21 +1165,21 @@
         },
         {
             "name": "Energy matrix",
-            "key": "energy-matrix",
+            "key": "eo",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 2
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "energy-matrix",
+                    "name": "eo",
                     "amount": 1
                 }
             ],
@@ -1187,21 +1187,21 @@
         },
         {
             "name": "Hydrogen fuel rod",
-            "key": "hydrogen-fuel-rod",
+            "key": "hf",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 1
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 5
                 }
             ],
             "products": [
                 {
-                    "name": "hydrogen-fuel-rod",
+                    "name": "hf",
                     "amount": 1
                 }
             ],
@@ -1209,21 +1209,21 @@
         },
         {
             "name": "Thruster",
-            "key": "thruster",
+            "key": "v",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 2
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "thruster",
+                    "name": "v",
                     "amount": 1
                 }
             ],
@@ -1231,21 +1231,21 @@
         },
         {
             "name": "Reinforced thruster",
-            "key": "reinforced-thruster",
+            "key": "rt",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 5
                 },
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 5
                 }
             ],
             "products": [
                 {
-                    "name": "reinforced-thruster",
+                    "name": "rt",
                     "amount": 1
                 }
             ],
@@ -1253,29 +1253,29 @@
         },
         {
             "name": "Chemical plant",
-            "key": "chemical-plant",
+            "key": "cp",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 8
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 8
                 },
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 8
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "chemical-plant",
+                    "name": "cp",
                     "amount": 1
                 }
             ],
@@ -1283,21 +1283,21 @@
         },
         {
             "name": "Plastic",
-            "key": "plastic",
+            "key": "p",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "refined-oil",
+                    "name": "ro",
                     "amount": 2
                 },
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "plastic",
+                    "name": "p",
                     "amount": 1
                 }
             ],
@@ -1305,25 +1305,25 @@
         },
         {
             "name": "Sulfuric acid",
-            "key": "sulfuric-acid",
+            "key": "sa",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "refined-oil",
+                    "name": "ro",
                     "amount": 6
                 },
                 {
-                    "name": "stone-ore",
+                    "name": "sr",
                     "amount": 8
                 },
                 {
-                    "name": "water",
+                    "name": "w",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "sulfuric-acid",
+                    "name": "sa",
                     "amount": 4
                 }
             ],
@@ -1331,25 +1331,25 @@
         },
         {
             "name": "Organic crystal",
-            "key": "organic-crystal",
+            "key": "od",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "plastic",
+                    "name": "p",
                     "amount": 2
                 },
                 {
-                    "name": "refined-oil",
+                    "name": "ro",
                     "amount": 1
                 },
                 {
-                    "name": "water",
+                    "name": "w",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "organic-crystal",
+                    "name": "od",
                     "amount": 1
                 }
             ],
@@ -1357,21 +1357,21 @@
         },
         {
             "name": "Titanium crystal",
-            "key": "titanium-crystal",
+            "key": "tc",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "organic-crystal",
+                    "name": "od",
                     "amount": 1
                 },
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "titanium-crystal",
+                    "name": "tc",
                     "amount": 1
                 }
             ],
@@ -1379,21 +1379,21 @@
         },
         {
             "name": "Structure matrix",
-            "key": "structure-matrix",
+            "key": "sz",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "diamond",
+                    "name": "e",
                     "amount": 1
                 },
                 {
-                    "name": "titanium-crystal",
+                    "name": "tc",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "structure-matrix",
+                    "name": "sA",
                     "amount": 1
                 }
             ],
@@ -1401,25 +1401,25 @@
         },
         {
             "name": "Casimir crystal",
-            "key": "casimir-crystal",
+            "key": "cc",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "titanium-crystal",
+                    "name": "tc",
                     "amount": 1
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 2
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 12
                 }
             ],
             "products": [
                 {
-                    "name": "casimir-crystal",
+                    "name": "cc",
                     "amount": 1
                 }
             ],
@@ -1427,25 +1427,25 @@
         },
         {
             "name": "Casimir crystal (advanced)",
-            "key": "casimir-crystal-advanced",
+            "key": "cd",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "optical-grating-crystal",
+                    "name": "og",
                     "amount": 6
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 2
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 12
                 }
             ],
             "products": [
                 {
-                    "name": "casimir-crystal",
+                    "name": "cc",
                     "amount": 1
                 }
             ],
@@ -1453,25 +1453,25 @@
         },
         {
             "name": "Titanium glass",
-            "key": "titanium-glass",
+            "key": "tg",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 2
                 },
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 2
                 },
                 {
-                    "name": "water",
+                    "name": "w",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "titanium-glass",
+                    "name": "tg",
                     "amount": 2
                 }
             ],
@@ -1479,21 +1479,21 @@
         },
         {
             "name": "Graphene",
-            "key": "graphene",
+            "key": "j",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 3
                 },
                 {
-                    "name": "sulfuric-acid",
+                    "name": "sa",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 2
                 }
             ],
@@ -1501,21 +1501,21 @@
         },
         {
             "name": "Graphene (advanced)",
-            "key": "graphene-advanced",
+            "key": "ga",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "fire-ice",
+                    "name": "fi",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 2
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 1
                 }
             ],
@@ -1523,21 +1523,21 @@
         },
         {
             "name": "Carbon nanotube",
-            "key": "carbon-nanotube",
+            "key": "cn",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 3
                 },
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "carbon-nanotube",
+                    "name": "cn",
                     "amount": 2
                 }
             ],
@@ -1545,17 +1545,17 @@
         },
         {
             "name": "Silicon ore",
-            "key": "silicon-ore",
+            "key": "so",
             "time": 10,
             "ingredients": [
                 {
-                    "name": "stone-ore",
+                    "name": "sr",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "silicon-ore",
+                    "name": "so",
                     "amount": 1
                 }
             ],
@@ -1563,17 +1563,17 @@
         },
         {
             "name": "Carbon nanotube (advanced)",
-            "key": "carbon-nanotube-advanced",
+            "key": "co",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "spiniform-stalagmite-crystal",
+                    "name": "su",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "carbon-nanotube",
+                    "name": "cn",
                     "amount": 2
                 }
             ],
@@ -1581,25 +1581,25 @@
         },
         {
             "name": "Particle broadband",
-            "key": "particle-broadband",
+            "key": "pb",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "carbon-nanotube",
+                    "name": "cn",
                     "amount": 2
                 },
                 {
-                    "name": "crystal-silicon",
+                    "name": "ct",
                     "amount": 2
                 },
                 {
-                    "name": "plastic",
+                    "name": "p",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "particle-broadband",
+                    "name": "pb",
                     "amount": 1
                 }
             ],
@@ -1607,17 +1607,17 @@
         },
         {
             "name": "Crystal silicon",
-            "key": "crystal-silicon",
+            "key": "cs",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "crystal-silicon",
+                    "name": "ct",
                     "amount": 1
                 }
             ],
@@ -1625,21 +1625,21 @@
         },
         {
             "name": "Plane filter",
-            "key": "plane-filter",
+            "key": "pg",
             "time": 12,
             "ingredients": [
                 {
-                    "name": "casimir-crystal",
+                    "name": "cc",
                     "amount": 1
                 },
                 {
-                    "name": "titanium-glass",
+                    "name": "tg",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "plane-filter",
+                    "name": "pf",
                     "amount": 1
                 }
             ],
@@ -1647,33 +1647,33 @@
         },
         {
             "name": "Miniature particle collider",
-            "key": "miniature-particle-collider",
+            "key": "mp",
             "time": 15,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 20
                 },
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 20
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 50
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 10
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 8
                 }
             ],
             "products": [
                 {
-                    "name": "miniature-particle-collider",
+                    "name": "mp",
                     "amount": 1
                 }
             ],
@@ -1681,17 +1681,17 @@
         },
         {
             "name": "Deuterium",
-            "key": "deuterium",
+            "key": "d",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "deuterium",
+                    "name": "d",
                     "amount": 5
                 }
             ],
@@ -1699,25 +1699,25 @@
         },
         {
             "name": "Deuteron fuel rod",
-            "key": "deuteron-fuel-rod",
+            "key": "dg",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 1
                 },
                 {
-                    "name": "deuterium",
+                    "name": "d",
                     "amount": 10
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "deuteron-fuel-rod",
+                    "name": "df",
                     "amount": 1
                 }
             ],
@@ -1725,21 +1725,21 @@
         },
         {
             "name": "Annihilation constraint sphere",
-            "key": "annihilation-constraint-sphere",
+            "key": "ac",
             "time": 20,
             "ingredients": [
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 1
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "annihilation-constraint-sphere",
+                    "name": "ac",
                     "amount": 1
                 }
             ],
@@ -1747,29 +1747,29 @@
         },
         {
             "name": "Artificial star",
-            "key": "artificial-star",
+            "key": "as",
             "time": 30,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 20
                 },
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 20
                 },
                 {
-                    "name": "annihilation-constraint-sphere",
+                    "name": "ac",
                     "amount": 10
                 },
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "artificial-star",
+                    "name": "as",
                     "amount": 1
                 }
             ],
@@ -1777,29 +1777,29 @@
         },
         {
             "name": "Antimatter fuel rod",
-            "key": "antimatter-fuel-rod",
+            "key": "af",
             "time": 12,
             "ingredients": [
                 {
-                    "name": "antimatter",
+                    "name": "c",
                     "amount": 10
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 10
                 },
                 {
-                    "name": "annihilation-constraint-sphere",
+                    "name": "ac",
                     "amount": 1
                 },
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "antimatter-fuel-rod",
+                    "name": "af",
                     "amount": 1
                 }
             ],
@@ -1807,25 +1807,25 @@
         },
         {
             "name": "Assembling machine Mk.I",
-            "key": "assembling-machine-mk-i",
+            "key": "am",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 4
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 8
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "assembling-machine-mk-i",
+                    "name": "am",
                     "amount": 1
                 }
             ],
@@ -1833,25 +1833,25 @@
         },
         {
             "name": "Assembling machine Mk.II",
-            "key": "assembling-machine-mk-ii",
+            "key": "an",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "assembling-machine-mk-i",
+                    "name": "am",
                     "amount": 1
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 8
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "assembling-machine-mk-ii",
+                    "name": "an",
                     "amount": 1
                 }
             ],
@@ -1859,25 +1859,25 @@
         },
         {
             "name": "Assembling machine Mk.III",
-            "key": "assembling-machine-mk-iii",
+            "key": "ao",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "assembling-machine-mk-ii",
+                    "name": "an",
                     "amount": 1
                 },
                 {
-                    "name": "particle-broadband",
+                    "name": "pb",
                     "amount": 8
                 },
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "assembling-machine-mk-iii",
+                    "name": "ao",
                     "amount": 1
                 }
             ],
@@ -1885,29 +1885,29 @@
         },
         {
             "name": "Mining machine",
-            "key": "mining-machine",
+            "key": "mm",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 4
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 2
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 2
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "mining-machine",
+                    "name": "mm",
                     "amount": 1
                 }
             ],
@@ -1915,29 +1915,29 @@
         },
         {
             "name": "Water pump",
-            "key": "water-pump",
+            "key": "wp",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 8
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 4
                 },
                 {
-                    "name": "electric-motor",
+                    "name": "em",
                     "amount": 4
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "water-pump",
+                    "name": "wp",
                     "amount": 1
                 }
             ],
@@ -1945,21 +1945,21 @@
         },
         {
             "name": "Circuit board",
-            "key": "circuit-board",
+            "key": "cb",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 2
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 2
                 }
             ],
@@ -1967,21 +1967,21 @@
         },
         {
             "name": "Processor",
-            "key": "processor",
+            "key": "r",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 2
                 },
                 {
-                    "name": "microcrystalline-component",
+                    "name": "md",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 1
                 }
             ],
@@ -1989,21 +1989,21 @@
         },
         {
             "name": "Quantum chip",
-            "key": "quantum-chip",
+            "key": "qc",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 2
                 },
                 {
-                    "name": "plane-filter",
+                    "name": "pf",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 1
                 }
             ],
@@ -2011,21 +2011,21 @@
         },
         {
             "name": "Microcrystalline component",
-            "key": "microcrystalline-component",
+            "key": "md",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 2
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "microcrystalline-component",
+                    "name": "md",
                     "amount": 1
                 }
             ],
@@ -2033,25 +2033,25 @@
         },
         {
             "name": "Organic crystal (original)",
-            "key": "organic-crystal-original",
+            "key": "of",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "log",
+                    "name": "l",
                     "amount": 20
                 },
                 {
-                    "name": "plant-fuel",
+                    "name": "pg",
                     "amount": 30
                 },
                 {
-                    "name": "water",
+                    "name": "w",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "organic-crystal",
+                    "name": "od",
                     "amount": 1
                 }
             ],
@@ -2059,21 +2059,21 @@
         },
         {
             "name": "Information matrix",
-            "key": "information-matrix",
+            "key": "im",
             "time": 10,
             "ingredients": [
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 2
                 },
                 {
-                    "name": "particle-broadband",
+                    "name": "pb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "information-matrix",
+                    "name": "im",
                     "amount": 1
                 }
             ],
@@ -2081,29 +2081,29 @@
         },
         {
             "name": "Smelter",
-            "key": "smelter",
+            "key": "s",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 4
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 2
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 4
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "smelter",
+                    "name": "s",
                     "amount": 1
                 }
             ],
@@ -2111,17 +2111,17 @@
         },
         {
             "name": "Glass",
-            "key": "glass",
+            "key": "i",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "stone-ore",
+                    "name": "sr",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 1
                 }
             ],
@@ -2129,25 +2129,25 @@
         },
         {
             "name": "X-ray cracking",
-            "key": "x-ray-cracking",
+            "key": "xr",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "refined-oil",
+                    "name": "ro",
                     "amount": 1
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 3
                 },
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 1
                 }
             ],
@@ -2155,17 +2155,17 @@
         },
         {
             "name": "High-purity silicon",
-            "key": "high-purity-silicon",
+            "key": "hp",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "silicon-ore",
+                    "name": "so",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 1
                 }
             ],
@@ -2173,17 +2173,17 @@
         },
         {
             "name": "Diamond",
-            "key": "diamond",
+            "key": "e",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "diamond",
+                    "name": "e",
                     "amount": 1
                 }
             ],
@@ -2191,17 +2191,17 @@
         },
         {
             "name": "Diamond (advanced)",
-            "key": "diamond-advanced",
+            "key": "da",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "kimberlite-ore",
+                    "name": "ko",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "diamond",
+                    "name": "e",
                     "amount": 1
                 }
             ],
@@ -2209,17 +2209,17 @@
         },
         {
             "name": "Crystal silicon (advanced)",
-            "key": "crystal-silicon-advanced",
+            "key": "ct",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "fractal-silicon",
+                    "name": "fs",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "crystal-silicon",
+                    "name": "ct",
                     "amount": 1
                 }
             ],
@@ -2227,17 +2227,17 @@
         },
         {
             "name": "Steel",
-            "key": "steel",
+            "key": "t",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 1
                 }
             ],
@@ -2245,29 +2245,29 @@
         },
         {
             "name": "Thermal power station",
-            "key": "thermal-power-station",
+            "key": "tp",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 10
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 4
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 4
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "thermal-power-station",
+                    "name": "tp",
                     "amount": 1
                 }
             ],
@@ -2275,17 +2275,17 @@
         },
         {
             "name": "Titanium ingot",
-            "key": "titanium-ingot",
+            "key": "ti",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "titanium-ore",
+                    "name": "to",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 1
                 }
             ],
@@ -2293,25 +2293,25 @@
         },
         {
             "name": "Titanium alloy",
-            "key": "titanium-alloy",
+            "key": "ta",
             "time": 12,
             "ingredients": [
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 4
                 },
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 4
                 },
                 {
-                    "name": "sulfuric-acid",
+                    "name": "sa",
                     "amount": 8
                 }
             ],
             "products": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 4
                 }
             ],
@@ -2319,25 +2319,25 @@
         },
         {
             "name": "Solar panel",
-            "key": "solar-panel",
+            "key": "sp",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 6
                 },
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 6
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "solar-panel",
+                    "name": "sp",
                     "amount": 1
                 }
             ],
@@ -2345,21 +2345,21 @@
         },
         {
             "name": "Photon combiner",
-            "key": "photon-combiner",
+            "key": "pe",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "prism",
+                    "name": "q",
                     "amount": 2
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "photon-combiner",
+                    "name": "pd",
                     "amount": 1
                 }
             ],
@@ -2367,21 +2367,21 @@
         },
         {
             "name": "Photon combiner (advanced)",
-            "key": "photon-combiner-advanced",
+            "key": "pf",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "optical-grating-crystal",
+                    "name": "og",
                     "amount": 1
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "photon-combiner",
+                    "name": "pd",
                     "amount": 1
                 }
             ],
@@ -2389,21 +2389,21 @@
         },
         {
             "name": "Solar sail",
-            "key": "solar-sail",
+            "key": "st",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 1
                 },
                 {
-                    "name": "photon-combiner",
+                    "name": "pd",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "solar-sail",
+                    "name": "st",
                     "amount": 2
                 }
             ],
@@ -2411,29 +2411,29 @@
         },
         {
             "name": "EM-Rail Ejector",
-            "key": "em-rail-ejector",
+            "key": "er",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 20
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 20
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 5
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 20
                 }
             ],
             "products": [
                 {
-                    "name": "em-rail-ejector",
+                    "name": "er",
                     "amount": 1
                 }
             ],
@@ -2441,33 +2441,33 @@
         },
         {
             "name": "Ray receiver",
-            "key": "ray-receiver",
+            "key": "rr",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 20
                 },
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 20
                 },
                 {
-                    "name": "photon-combiner",
+                    "name": "pd",
                     "amount": 10
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 5
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 20
                 }
             ],
             "products": [
                 {
-                    "name": "ray-receiver",
+                    "name": "rr",
                     "amount": 1
                 }
             ],
@@ -2475,25 +2475,25 @@
         },
         {
             "name": "Satellite substation",
-            "key": "satellite-substation",
+            "key": "ss",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "wireless-power-tower",
+                    "name": "wq",
                     "amount": 1
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 10
                 },
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "satellite-substation",
+                    "name": "ss",
                     "amount": 1
                 }
             ],
@@ -2501,21 +2501,21 @@
         },
         {
             "name": "Mass-energy storage",
-            "key": "mass-energy-storage",
+            "key": "me",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "critical-photon",
+                    "name": "cr",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "antimatter",
+                    "name": "c",
                     "amount": 2
                 },
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 2
                 }
             ],
@@ -2523,37 +2523,37 @@
         },
         {
             "name": "Universe matrix",
-            "key": "universe-matrix",
+            "key": "um",
             "time": 15,
             "ingredients": [
                 {
-                    "name": "electromagnetic-matrix",
+                    "name": "en",
                     "amount": 1
                 },
                 {
-                    "name": "energy-matrix",
+                    "name": "eo",
                     "amount": 1
                 },
                 {
-                    "name": "structure-matrix",
+                    "name": "sA",
                     "amount": 1
                 },
                 {
-                    "name": "information-matrix",
+                    "name": "im",
                     "amount": 1
                 },
                 {
-                    "name": "gravity-matrix",
+                    "name": "gm",
                     "amount": 1
                 },
                 {
-                    "name": "antimatter",
+                    "name": "c",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "universe-matrix",
+                    "name": "un",
                     "amount": 1
                 }
             ],
@@ -2561,25 +2561,25 @@
         },
         {
             "name": "Accumulator",
-            "key": "accumulator",
+            "key": "a",
             "time": 5,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 6
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 6
                 },
                 {
-                    "name": "crystal-silicon",
+                    "name": "ct",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "accumulator",
+                    "name": "a",
                     "amount": 1
                 }
             ],
@@ -2587,29 +2587,29 @@
         },
         {
             "name": "Energy exchanger",
-            "key": "energy-exchanger",
+            "key": "ee",
             "time": 15,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 40
                 },
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 40
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 40
                 },
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 8
                 }
             ],
             "products": [
                 {
-                    "name": "energy-exchanger",
+                    "name": "ee",
                     "amount": 1
                 }
             ],
@@ -2617,17 +2617,17 @@
         },
         {
             "name": "Space warper",
-            "key": "space-warper",
+            "key": "sw",
             "time": 10,
             "ingredients": [
                 {
-                    "name": "graviton-lens",
+                    "name": "gl",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "space-warper",
+                    "name": "sw",
                     "amount": 1
                 }
             ],
@@ -2635,17 +2635,17 @@
         },
         {
             "name": "Space warper (advanced)",
-            "key": "space-warper-advanced",
+            "key": "sx",
             "time": 10,
             "ingredients": [
                 {
-                    "name": "gravity-matrix",
+                    "name": "gm",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "space-warper",
+                    "name": "sw",
                     "amount": 8
                 }
             ],
@@ -2653,25 +2653,25 @@
         },
         {
             "name": "Frame material",
-            "key": "frame-material",
+            "key": "fm",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "carbon-nanotube",
+                    "name": "cn",
                     "amount": 4
                 },
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 1
                 },
                 {
-                    "name": "high-purity-silicon",
+                    "name": "hp",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 1
                 }
             ],
@@ -2679,25 +2679,25 @@
         },
         {
             "name": "Dyson sphere component",
-            "key": "dyson-sphere-component",
+            "key": "ds",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 3
                 },
                 {
-                    "name": "solar-sail",
+                    "name": "st",
                     "amount": 3
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 3
                 }
             ],
             "products": [
                 {
-                    "name": "dyson-sphere-component",
+                    "name": "ds",
                     "amount": 1
                 }
             ],
@@ -2705,29 +2705,29 @@
         },
         {
             "name": "Vertical launching silo",
-            "key": "vertical-launching-silo",
+            "key": "vl",
             "time": 30,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 80
                 },
                 {
-                    "name": "frame-material",
+                    "name": "fm",
                     "amount": 30
                 },
                 {
-                    "name": "graviton-lens",
+                    "name": "gl",
                     "amount": 20
                 },
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "vertical-launching-silo",
+                    "name": "vl",
                     "amount": 1
                 }
             ],
@@ -2735,25 +2735,25 @@
         },
         {
             "name": "Small carrier rocket",
-            "key": "small-carrier-rocket",
+            "key": "sc",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "dyson-sphere-component",
+                    "name": "ds",
                     "amount": 2
                 },
                 {
-                    "name": "deuteron-fuel-rod",
+                    "name": "df",
                     "amount": 2
                 },
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "small-carrier-rocket",
+                    "name": "sc",
                     "amount": 1
                 }
             ],
@@ -2761,21 +2761,21 @@
         },
         {
             "name": "Conveyor belt MK.I",
-            "key": "conveyor-belt-mk-i",
+            "key": "ce",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 2
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "conveyor-belt-mk-i",
+                    "name": "cd",
                     "amount": 3
                 }
             ],
@@ -2783,21 +2783,21 @@
         },
         {
             "name": "Sorter MK.I",
-            "key": "sorter-mk-i",
+            "key": "sm",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 1
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "sorter-mk-i",
+                    "name": "sm",
                     "amount": 1
                 }
             ],
@@ -2805,21 +2805,21 @@
         },
         {
             "name": "Storage MK.I",
-            "key": "storage-mk-i",
+            "key": "sr",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 4
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "storage-mk-i",
+                    "name": "sv",
                     "amount": 1
                 }
             ],
@@ -2827,25 +2827,25 @@
         },
         {
             "name": "Splitter(4-direction)",
-            "key": "splitter4-direction",
+            "key": "sd",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 3
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 2
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "splitter4-direction",
+                    "name": "sd",
                     "amount": 1
                 }
             ],
@@ -2853,21 +2853,21 @@
         },
         {
             "name": "Sorter MK.II",
-            "key": "sorter-mk-ii",
+            "key": "sn",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "sorter-mk-i",
+                    "name": "sm",
                     "amount": 2
                 },
                 {
-                    "name": "electric-motor",
+                    "name": "em",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "sorter-mk-ii",
+                    "name": "sn",
                     "amount": 2
                 }
             ],
@@ -2875,21 +2875,21 @@
         },
         {
             "name": "Conveyor belt MK.II",
-            "key": "conveyor-belt-mk-ii",
+            "key": "cf",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "conveyor-belt-mk-i",
+                    "name": "cd",
                     "amount": 3
                 },
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "conveyor-belt-mk-ii",
+                    "name": "ce",
                     "amount": 3
                 }
             ],
@@ -2897,21 +2897,21 @@
         },
         {
             "name": "Sorter MK.III",
-            "key": "sorter-mk-iii",
+            "key": "sq",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "sorter-mk-ii",
+                    "name": "sn",
                     "amount": 2
                 },
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "sorter-mk-iii",
+                    "name": "sq",
                     "amount": 2
                 }
             ],
@@ -2919,21 +2919,21 @@
         },
         {
             "name": "Storage MK.II",
-            "key": "storage-mk-ii",
+            "key": "su",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 8
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 8
                 }
             ],
             "products": [
                 {
-                    "name": "storage-mk-ii",
+                    "name": "sx",
                     "amount": 1
                 }
             ],
@@ -2941,25 +2941,25 @@
         },
         {
             "name": "Conveyor belt MK.III",
-            "key": "conveyor-belt-mk-iii",
+            "key": "cg",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "conveyor-belt-mk-ii",
+                    "name": "ce",
                     "amount": 3
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 1
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "conveyor-belt-mk-iii",
+                    "name": "cf",
                     "amount": 3
                 }
             ],
@@ -2967,29 +2967,29 @@
         },
         {
             "name": "Logistics station",
-            "key": "logistics-station",
+            "key": "ls",
             "time": 20,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 50
                 },
                 {
-                    "name": "titanium-ingot",
+                    "name": "ti",
                     "amount": 50
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 50
                 },
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 20
                 }
             ],
             "products": [
                 {
-                    "name": "logistics-station",
+                    "name": "ls",
                     "amount": 1
                 }
             ],
@@ -2997,25 +2997,25 @@
         },
         {
             "name": "Logistics drone",
-            "key": "logistics-drone",
+            "key": "ld",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 5
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 2
                 },
                 {
-                    "name": "thruster",
+                    "name": "v",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "logistics-drone",
+                    "name": "ld",
                     "amount": 1
                 }
             ],
@@ -3023,25 +3023,25 @@
         },
         {
             "name": "Interstellar logistics station",
-            "key": "interstellar-logistics-station",
+            "key": "il",
             "time": 30,
             "ingredients": [
                 {
-                    "name": "logistics-station",
+                    "name": "ls",
                     "amount": 1
                 },
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 50
                 },
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 20
                 }
             ],
             "products": [
                 {
-                    "name": "interstellar-logistics-station",
+                    "name": "il",
                     "amount": 1
                 }
             ],
@@ -3049,25 +3049,25 @@
         },
         {
             "name": "Logistics vessel",
-            "key": "logistics-vessel",
+            "key": "lv",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 10
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 10
                 },
                 {
-                    "name": "reinforced-thruster",
+                    "name": "rt",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "logistics-vessel",
+                    "name": "lv",
                     "amount": 1
                 }
             ],
@@ -3075,25 +3075,25 @@
         },
         {
             "name": "Electric motor",
-            "key": "electric-motor",
+            "key": "em",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 2
                 },
                 {
-                    "name": "gear",
+                    "name": "h",
                     "amount": 1
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "electric-motor",
+                    "name": "em",
                     "amount": 1
                 }
             ],
@@ -3101,21 +3101,21 @@
         },
         {
             "name": "Electromagnetic turbine",
-            "key": "electromagnetic-turbine",
+            "key": "et",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "electric-motor",
+                    "name": "em",
                     "amount": 2
                 },
                 {
-                    "name": "magnetic-coil",
+                    "name": "mc",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 1
                 }
             ],
@@ -3123,25 +3123,25 @@
         },
         {
             "name": "Particle container",
-            "key": "particle-container",
+            "key": "pc",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 2
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 2
                 },
                 {
-                    "name": "graphene",
+                    "name": "j",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 1
                 }
             ],
@@ -3149,21 +3149,21 @@
         },
         {
             "name": "Particle container (advanced)",
-            "key": "particle-container-advanced",
+            "key": "pd",
             "time": 4,
             "ingredients": [
                 {
-                    "name": "unipolar-magnet",
+                    "name": "um",
                     "amount": 10
                 },
                 {
-                    "name": "copper-ingot",
+                    "name": "ci",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 1
                 }
             ],
@@ -3171,21 +3171,21 @@
         },
         {
             "name": "Graviton lens",
-            "key": "graviton-lens",
+            "key": "gl",
             "time": 6,
             "ingredients": [
                 {
-                    "name": "diamond",
+                    "name": "e",
                     "amount": 4
                 },
                 {
-                    "name": "strange-matter",
+                    "name": "sz",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "graviton-lens",
+                    "name": "gl",
                     "amount": 1
                 }
             ],
@@ -3193,21 +3193,21 @@
         },
         {
             "name": "Gravity matrix",
-            "key": "gravity-matrix",
+            "key": "gm",
             "time": 24,
             "ingredients": [
                 {
-                    "name": "graviton-lens",
+                    "name": "gl",
                     "amount": 1
                 },
                 {
-                    "name": "quantum-chip",
+                    "name": "qc",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "gravity-matrix",
+                    "name": "gm",
                     "amount": 2
                 }
             ],
@@ -3215,25 +3215,25 @@
         },
         {
             "name": "Super-magnetic ring",
-            "key": "super-magnetic-ring",
+            "key": "sA",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "electromagnetic-turbine",
+                    "name": "et",
                     "amount": 2
                 },
                 {
-                    "name": "magnet",
+                    "name": "m",
                     "amount": 3
                 },
                 {
-                    "name": "energetic-graphite",
+                    "name": "eg",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 1
                 }
             ],
@@ -3241,25 +3241,25 @@
         },
         {
             "name": "Strange matter",
-            "key": "strange-matter",
+            "key": "sy",
             "time": 8,
             "ingredients": [
                 {
-                    "name": "particle-container",
+                    "name": "pc",
                     "amount": 2
                 },
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 2
                 },
                 {
-                    "name": "deuterium",
+                    "name": "d",
                     "amount": 10
                 }
             ],
             "products": [
                 {
-                    "name": "strange-matter",
+                    "name": "sz",
                     "amount": 1
                 }
             ],
@@ -3267,25 +3267,25 @@
         },
         {
             "name": "Spray coater",
-            "key": "spray-coater",
+            "key": "se",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "plasma-exciter",
+                    "name": "pe",
                     "amount": 1
                 },
                 {
-                    "name": "circuit-board",
+                    "name": "cb",
                     "amount": 4
                 },
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 2
                 }
             ],
             "products": [
                 {
-                    "name": "spray-coater",
+                    "name": "se",
                     "amount": 1
                 }
             ],
@@ -3293,29 +3293,29 @@
         },
         {
             "name": "Fractionator",
-            "key": "fractionator",
+            "key": "g",
             "time": 3,
             "ingredients": [
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 8
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 4
                 },
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 4
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "fractionator",
+                    "name": "g",
                     "amount": 1
                 }
             ],
@@ -3323,29 +3323,29 @@
         },
         {
             "name": "Orbit collector",
-            "key": "orbit-collector",
+            "key": "oc",
             "time": 30,
             "ingredients": [
                 {
-                    "name": "interstellar-logistics-station",
+                    "name": "il",
                     "amount": 1
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 50
                 },
                 {
-                    "name": "reinforced-thruster",
+                    "name": "rt",
                     "amount": 20
                 },
                 {
-                    "name": "accumulatorfull",
+                    "name": "b",
                     "amount": 20
                 }
             ],
             "products": [
                 {
-                    "name": "orbit-collector",
+                    "name": "oc",
                     "amount": 1
                 }
             ],
@@ -3353,21 +3353,21 @@
         },
         {
             "name": "Foundation",
-            "key": "foundation",
+            "key": "f",
             "time": 1,
             "ingredients": [
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 3
                 },
                 {
-                    "name": "steel",
+                    "name": "t",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "foundation",
+                    "name": "f",
                     "amount": 1
                 }
             ],
@@ -3375,29 +3375,29 @@
         },
         {
             "name": "Mini fusion power station",
-            "key": "mini-fusion-power-station",
+            "key": "mf",
             "time": 10,
             "ingredients": [
                 {
-                    "name": "titanium-alloy",
+                    "name": "ta",
                     "amount": 12
                 },
                 {
-                    "name": "super-magnetic-ring",
+                    "name": "sB",
                     "amount": 10
                 },
                 {
-                    "name": "carbon-nanotube",
+                    "name": "cn",
                     "amount": 8
                 },
                 {
-                    "name": "processor",
+                    "name": "r",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "mini-fusion-power-station",
+                    "name": "mf",
                     "amount": 1
                 }
             ],
@@ -3405,25 +3405,25 @@
         },
         {
             "name": "Storage tank",
-            "key": "storage-tank",
+            "key": "sv",
             "time": 2,
             "ingredients": [
                 {
-                    "name": "iron-ingot",
+                    "name": "ii",
                     "amount": 8
                 },
                 {
-                    "name": "stone",
+                    "name": "u",
                     "amount": 4
                 },
                 {
-                    "name": "glass",
+                    "name": "i",
                     "amount": 4
                 }
             ],
             "products": [
                 {
-                    "name": "storage-tank",
+                    "name": "sy",
                     "amount": 1
                 }
             ],
@@ -3431,17 +3431,17 @@
         },
         {
             "name": "Deuterium fractionation",
-            "key": "deuterium-fractionation",
+            "key": "df",
             "time": 0.016666666666666666,
             "ingredients": [
                 {
-                    "name": "hydrogen",
+                    "name": "k",
                     "amount": 200
                 }
             ],
             "products": [
                 {
-                    "name": "deuterium",
+                    "name": "d",
                     "amount": 1
                 }
             ],
@@ -3449,17 +3449,17 @@
         },
         {
             "name": "Accumulator(full)",
-            "key": "accumulatorfull",
+            "key": "b",
             "time": 150,
             "ingredients": [
                 {
-                    "name": "accumulator",
+                    "name": "a",
                     "amount": 1
                 }
             ],
             "products": [
                 {
-                    "name": "accumulatorfull",
+                    "name": "b",
                     "amount": 1
                 }
             ],
@@ -3469,107 +3469,128 @@
     "resources": [
         {
             "name": "Iron ore",
-            "key": "iron-ore",
+            "key": "io",
+            "item": "io",
             "category": "mining"
         },
         {
             "name": "Copper ore",
-            "key": "copper-ore",
+            "key": "cr",
+            "item": "cq",
             "category": "mining"
         },
         {
             "name": "Silicon ore",
-            "key": "silicon-ore",
+            "key": "sB",
+            "item": "so",
             "category": "mining"
         },
         {
             "name": "Titanium ore",
-            "key": "titanium-ore",
+            "key": "to",
+            "item": "to",
             "category": "mining"
         },
         {
             "name": "Stone ore",
-            "key": "stone-ore",
+            "key": "sD",
+            "item": "sr",
             "category": "mining"
         },
         {
             "name": "Coal ore",
-            "key": "coal-ore",
+            "key": "cq",
+            "item": "co",
             "category": "mining"
         },
         {
             "name": "Crude oil",
-            "key": "crude-oil",
+            "key": "cv",
+            "item": "cs",
             "category": "oil"
         },
         {
             "name": "Fire ice",
-            "key": "fire-ice",
+            "key": "fi",
+            "item": "fi",
             "category": "mining"
         },
         {
             "name": "Kimberlite ore",
-            "key": "kimberlite-ore",
+            "key": "ko",
+            "item": "ko",
             "category": "mining"
         },
         {
             "name": "Fractal silicon",
-            "key": "fractal-silicon",
+            "key": "fs",
+            "item": "fs",
             "category": "mining"
         },
         {
             "name": "Organic crystal",
-            "key": "organic-crystal",
+            "key": "oh",
+            "item": "od",
             "category": "mining"
         },
         {
             "name": "Optical grating crystal",
-            "key": "optical-grating-crystal",
+            "key": "og",
+            "item": "og",
             "category": "mining"
         },
         {
             "name": "Spiniform stalagmite crystal",
-            "key": "spiniform-stalagmite-crystal",
+            "key": "sC",
+            "item": "su",
             "category": "mining"
         },
         {
             "name": "Unipolar magnet",
-            "key": "unipolar-magnet",
+            "key": "un",
+            "item": "um",
             "category": "mining"
         },
         {
             "name": "Water",
-            "key": "water",
+            "key": "w",
+            "item": "w",
             "category": "pump"
         },
         {
             "name": "Sulfuric acid",
-            "key": "sulfuric-acid",
+            "key": "sb",
+            "item": "sa",
             "category": "pump"
         },
         {
             "name": "Critical photon",
-            "key": "critical-photon",
+            "key": "cu",
+            "item": "cr",
             "category": null
         },
         {
             "name": "Plant fuel",
-            "key": "plant-fuel",
+            "key": "pi",
+            "item": "pg",
             "category": null
         },
         {
             "name": "Log",
-            "key": "log",
+            "key": "n",
+            "item": "l",
             "category": null
         },
         {
             "name": "Hydrogen",
-            "key": "hydrogen",
+            "key": "l",
+            "item": "k",
             "category": null
         },
         {
             "name": "Deuterium",
-            "key": "deuterium",
+            "key": "k",
+            "item": "d",
             "category": null
         }
     ]

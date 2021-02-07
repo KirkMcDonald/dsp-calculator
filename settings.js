@@ -14,7 +14,7 @@ limitations under the License.*/
 import { DEFAULT_RATE, DEFAULT_RATE_PRECISION, DEFAULT_COUNT_PRECISION, longRateNames } from "./align.js"
 import { dropdown } from "./dropdown.js"
 import { DEFAULT_TAB, clickTab } from "./events.js"
-import { spec, /*resourcePurities,*/ DEFAULT_BELT } from "./factory.js"
+import { spec, /*resourcePurities,*/ /*DEFAULT_BELT*/ } from "./factory.js"
 import { Rational } from "./rational.js"
 
 // There are several things going on with this control flow. Settings should
@@ -136,7 +136,7 @@ function beltHandler(event, belt) {
 }
 
 function renderBelts(settings) {
-    let beltKey = DEFAULT_BELT
+    let beltKey = spec.belts.keys().next().value
     if (settings.has("belt")) {
         beltKey = settings.get("belt")
     }
@@ -178,6 +178,16 @@ function renderRecipes(settings) {
 // resource priority
 
 function renderResourcePriorities(settings) {
+    if (settings.has("priority")) {
+        let tiers = []
+        let keys = settings.get("priority").split(";")
+        for (let s of keys) {
+            tiers.push(s.split(","))
+        }
+        spec.setPriorities(tiers)
+    } else {
+        spec.setDefaultPriority()
+    }
     let dragitem = null
     let dragElement = null
 
@@ -203,9 +213,9 @@ function renderResourcePriorities(settings) {
             event.preventDefault()
             this.classList.remove("highlight")
             drop.call(this, event, d)
-            console.log(spec.priority)
             dragitem = null
             dragElement = null
+            spec.updateSolution()
         })
     }
 

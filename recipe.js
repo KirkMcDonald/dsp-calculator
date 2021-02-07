@@ -88,8 +88,8 @@ function makeRecipe(data, items, d) {
 }
 
 class ResourceRecipe extends Recipe {
-    constructor(item, category) {
-        super(item.key + "-mining", item.name, category, zero, [], [new Ingredient(item, one)])
+    constructor(key, item, category) {
+        super(key, item.name, category, zero, [], [new Ingredient(item, one)])
     }
     isResource() {
         return true
@@ -99,15 +99,18 @@ class ResourceRecipe extends Recipe {
 export function getRecipes(data, items) {
     let recipes = new Map()
     for (let d of data.resources) {
-        let item = items.get(d.key)
-        recipes.set(d.key + "-mining", new ResourceRecipe(item, d.category))
+        let item = items.get(d.item)
+        recipes.set(d.key, new ResourceRecipe(d.key, item, d.category))
     }
     for (let d of data.recipes) {
+        if (recipes.has(d.key)) {
+            throw new Error("repeated recipe key: " + d.key)
+        }
         recipes.set(d.key, makeRecipe(data, items, d))
     }
     for (let [itemKey, item] of items) {
         if (item.recipes.length === 0) {
-            recipes.set(itemKey, new ResourceRecipe(item, null))
+            throw new Error("bad item: " + item.name)
         }
     }
     return recipes

@@ -19,12 +19,11 @@ import { getItems } from "./item.js"
 import { getRecipes } from "./recipe.js"
 import { renderSettings } from "./settings.js"
 
-//import { findGroups } from "./subgraphs.js"
 import { solve } from "./solve.js"
 import { Rational, zero, one } from "./rational.js"
 
 function loadData(settings) {
-    d3.json("data/data.json").then(function(data) {
+    d3.json("data/data.json", {cache: "reload"}).then(function(data) {
         let items = getItems(data)
         let recipes = getRecipes(data, items)
         let buildings = getBuildings(data)
