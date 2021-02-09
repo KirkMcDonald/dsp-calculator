@@ -11,6 +11,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.*/
+import { Icon } from "./icon.js"
 import { Rational, zero } from "./rational.js"
 
 class Building {
@@ -20,15 +21,13 @@ class Building {
         this.speed = speed
         this.category = category
         this.power = power
+        this.icon = new Icon(name)
     }
     getCount(spec, recipe, rate) {
         return rate.div(this.getRecipeRate(spec, recipe))
     }
     getRecipeRate(spec, recipe) {
         return recipe.time.reciprocate().mul(this.speed)
-    }
-    iconPath() {
-        return "images/" + this.name + ".png"
     }
 }
 

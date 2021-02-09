@@ -11,6 +11,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.*/
+import { Icon, ResourceIcon } from "./icon.js"
 import { Rational, zero, one } from "./rational.js"
 
 export class Ingredient {
@@ -34,6 +35,7 @@ class Recipe {
         for (let ing of products) {
             ing.item.addRecipe(this)
         }
+        this.icon = new Icon(name)
     }
     gives(item) {
         for (let ing of this.products) {
@@ -42,9 +44,6 @@ class Recipe {
             }
         }
         return null
-    }
-    iconPath() {
-        return "images/" + this.name + ".png"
     }
     isResource() {
         return false
@@ -59,13 +58,28 @@ class Recipe {
 
 // Pseudo-recipe representing the ex nihilo production of items with all
 // recipes disabled.
-export class DisabledRecipe extends Recipe {
+export class DisabledRecipe {
     constructor(item, max) {
         this.name = item.name
         this.category = null
         this.ingredients = []
         this.products = [new Ingredient(item, one)]
         this.max = max
+        this.icon = new Icon(this.name)
+    }
+    gives(item) {
+        for (let ing of this.products) {
+            if (ing.item === item) {
+                return ing.amount
+            }
+        }
+        return null
+    }
+    isResource() {
+        return false
+    }
+    isReal() {
+        return true
     }
     maxPriority() {
         return this.max
@@ -90,6 +104,7 @@ function makeRecipe(data, items, d) {
 class ResourceRecipe extends Recipe {
     constructor(key, item, category) {
         super(key, item.name, category, zero, [], [new Ingredient(item, one)])
+        this.icon = new ResourceIcon(this)
     }
     isResource() {
         return true

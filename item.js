@@ -11,6 +11,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.*/
+import { Icon } from "./icon.js"
 import { Totals } from "./totals.js"
 
 export class Item {
@@ -21,6 +22,7 @@ export class Item {
         this.category = category
         this.recipes = []
         this.uses = []
+        this.icon = new Icon(name)
 
         this.ignoreRecipe = null
         this.disableRecipe = null
@@ -31,7 +33,7 @@ export class Item {
     addUse(recipe) {
         this.uses.push(recipe)
     }
-    produce(spec, rate, ignore) {
+    /*produce(spec, rate, ignore) {
         let totals = new Totals()
         let recipe = spec.getRecipe(this)
         let gives = recipe.gives(this)
@@ -46,10 +48,7 @@ export class Item {
             totals.combine(subtotals)
         }
         return totals
-    }
-    iconPath() {
-        return "images/" + this.name + ".png"
-    }
+    }*/
 }
 
 export function getItems(data) {

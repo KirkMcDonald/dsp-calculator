@@ -57,9 +57,20 @@ button.ui:focus {
     border-color: var(--accent);
     outline: none;
 }
-img.icon {
+img.icon, div.icon-container {
     display: inline-block;
     vertical-align: middle;
+}
+div.icon-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+img.icon-overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
 }
 .ignore {
     opacity: 0.3;
@@ -136,6 +147,24 @@ input.prec {
 }
 #belt_selector input[type="radio"]:checked + label {
     background: var(--accent);
+}
+#recipe_toggles .toggle {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid var(--light);
+    margin: 2px;
+    padding: 2px;
+    background-color: var(--dark);
+}
+#recipe_toggles .toggle:hover {
+    border-color: var(--bright);
+}
+#recipe_toggles .selected {
+    border-color: var(--accent);
+}
+#recipe_toggles .selected:hover {
+    border-color: var(--accent);
 }
 #resource_settings {
     border: 2px solid var(--light);

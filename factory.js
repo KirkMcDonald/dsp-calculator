@@ -92,6 +92,7 @@ class FactorySpecification {
 
         this.ignore = new Set()
         this.disable = new Set()
+        this.defaultDisable = new Set()
 
         this.priority = []
 
@@ -105,6 +106,7 @@ class FactorySpecification {
     setData(items, recipes, buildings, belts) {
         this.items = items
         let itemMap = new Map()
+        this.defaultDisable = new Set()
         for (let [itemKey, item] of items) {
             if (item.name === DEFAULT_ITEM_NAME) {
                 this.defaultItem = item
@@ -144,7 +146,7 @@ class FactorySpecification {
                 }
                 for (let recipe of item.recipes) {
                     if (recipe !== chosen) {
-                        this.disable.add(recipe)
+                        this.defaultDisable.add(recipe)
                     }
                 }
             }
@@ -184,6 +186,29 @@ class FactorySpecification {
         //this.setDefaultPriority()
 
         //this.initMinerSettings()
+    }
+    setDefaultDisable() {
+        this.disable.clear()
+        for (let recipe of this.defaultDisable) {
+            this.disable.add(recipe)
+        }
+    }
+    isDefaultDisable() {
+        if (this.disable.size !== this.defaultDisable.size) {
+            return false
+        }
+        for (let recipe of this.disable) {
+            if (!this.defaultDisable.has(recipe)) {
+                return false
+            }
+        }
+        return true
+    }
+    setDisable(recipe) {
+        this.disable.add(recipe)
+    }
+    setEnable(recipe) {
+        this.disable.delete(recipe)
     }
     setDefaultPriority() {
         let tiers = []
@@ -279,7 +304,6 @@ class FactorySpecification {
                 }
             }
         }
-        //let removeOld = this.setPriority(recipe, newPriority)
         return newPriority
     }
     getUses(item) {

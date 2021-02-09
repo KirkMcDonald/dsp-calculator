@@ -85,12 +85,7 @@ export class BuildTarget {
             itemHandler(this),
         )
 
-        itemLabel.append("img")
-            .classed("icon", true)
-            .attr("src", d => d.iconPath())
-            //.attr("width", 32)
-            //.attr("height", 32)
-            .attr("title", d => d.name)
+        itemLabel.append(d => d.icon.make(64))
 
         targetCount++
 

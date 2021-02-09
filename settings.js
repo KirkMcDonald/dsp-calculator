@@ -15,6 +15,7 @@ import { DEFAULT_RATE, DEFAULT_RATE_PRECISION, DEFAULT_COUNT_PRECISION, longRate
 import { dropdown } from "./dropdown.js"
 import { DEFAULT_TAB, clickTab } from "./events.js"
 import { spec, /*resourcePurities,*/ /*DEFAULT_BELT*/ } from "./factory.js"
+import { getRecipeGroups } from "./groups.js"
 import { Rational } from "./rational.js"
 
 // There are several things going on with this control flow. Settings should
@@ -160,19 +161,54 @@ function renderBelts(settings) {
         .on("change", beltHandler)
     beltOption.append("label")
         .attr("for", d => "belt." + d.key)
-        .append("img")
-            .classed("icon", true)
-            .attr("src", d => d.iconPath())
-            .attr("width", 32)
-            .attr("height", 32)
-            .attr("title", d => d.name)
+        .append(d => d.icon.make(32))
 }
 
 // recipe disabling
 
 function renderRecipes(settings) {
+    if (settings.has("disable")) {
+        let keys = settings.get("disable").split(",")
+        for (let k of keys) {
+            let recipe = spec.recipes.get(k)
+            if (recipe) {
+                spec.setDisable(recipe)
+            }
+        }
+    } else {
+        spec.setDefaultDisable()
+    }
+
+    let allGroups = getRecipeGroups(new Set(spec.recipes.values()))
+    let groups = []
+    for (let group of allGroups) {
+        if (group.size > 1) {
+            groups.push(Array.from(group))
+        }
+    }
+
     let div = d3.select("#recipe_toggles")
     div.selectAll("*").remove()
+    div.selectAll("div")
+        .data(groups)
+        .join("div")
+            .classed("toggle-row", true)
+            .selectAll("div")
+            .data(d => d)
+            .join("div")
+                .classed("toggle", true)
+                .classed("selected", d => !spec.disable.has(d))
+                .on("click", function(event, d) {
+                    let disabled = spec.disable.has(d)
+                    d3.select(this).classed("selected", disabled)
+                    if (disabled) {
+                        spec.setEnable(d)
+                    } else {
+                        spec.setDisable(d)
+                    }
+                    spec.updateSolution()
+                })
+                .append(d => d.icon.make(48))
 }
 
 // resource priority
@@ -256,12 +292,7 @@ function renderResourcePriorities(settings) {
             .on("dragend", function(event, d) {
                 div.classed("dragging", false)
             })
-        resource.append("img")
-            .classed("icon", true)
-            .attr("src", d => d.iconPath())
-            .attr("width", 48)
-            .attr("height", 48)
-            .attr("title", d => d.name)
+        resource.append(d => d.icon.make(48))
         return tier.node()
     }
 

@@ -21,23 +21,15 @@ function renderMatrix(d, A, m) {
     for (let item of m.items) {
         let th = header.append("th")
         th.append(() => new Text("s"))
-        th.append("img")
-            .classed("icon item-icon", true)
-            .attr("width", 32)
-            .attr("height", 32)
-            .attr("src", item.iconPath())
-            .attr("title", item.name)
+        th.append(() => item.icon.make(32))
+            .classed("item-icon", true)
     }
     header.append("th")
         .text("tax")
     for (let recipe of m.recipes) {
         header.append("th")
-            .append("img")
-                .classed("icon item-icon", true)
-                .attr("width", 32)
-                .attr("height", 32)
-                .attr("src", recipe.iconPath())
-                .attr("title", recipe.name)
+            .append(() => recipe.icon.make(32))
+                .classed("item-icon", true)
     }
     header.append("th")
         .text("answer")
@@ -47,13 +39,8 @@ function renderMatrix(d, A, m) {
         let row = table.append("tr")
         let label = row.append("td")
         if (r < m.recipes.length) {
-            let path = m.recipes[r].iconPath()
-            label.append("img")
-                .classed("icon item-icon", true)
-                .attr("width", 32)
-                .attr("height", 32)
-                .attr("src", path)
-                .attr("title", m.recipes[r].name)
+            label.append(() => m.recipes[r].icon.make(32))
+                .classed("item-icon", true)
         } else if (r === A.rows - 2) {
             label.append(() => new Text("tax"))
         } else {

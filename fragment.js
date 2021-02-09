@@ -55,6 +55,14 @@ export function formatSettings() {
         settings += "&ignore=" + ignore.join(",")
     }
 
+    if (!spec.isDefaultDisable()) {
+        let disable = []
+        for (let d of spec.disable) {
+            disable.push(d.key)
+        }
+        settings += "&disable=" + disable.join(",")
+    }
+
     if (!spec.isDefaultPriority()) {
         let priority = []
         for (let tier of spec.priority) {
